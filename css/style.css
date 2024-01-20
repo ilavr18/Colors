@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*Обнуление стилей*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*-----------------------------------------------*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.colors__list {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.colors__item {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.colors__copied {
+  margin-bottom: 5px;
+  opacity: 0;
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 200ms;
+}
+.colors__title {
+  padding: 10px;
+  border-radius: 10px;
+}
+.colors__title:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.colors__btn {
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.colors__btn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=style.css.map */
